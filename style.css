@@ -21,3 +21,37 @@
 - Apply Flexbox to the class="sections" */
 
 /* 3. Create a media query that targets screens at a min-width of 1024px. At this screen size, apply your any custom style to the page. */
+
+/* 1. Base style background for mobile */
+
+body {
+background-color: lightgray;
+margin: 0;
+font-family: Arial, sans-serif;
+}
+
+
+/* 2. Tablet  768px */
+@media (min-width: 768px) {
+body {
+background-color: lightblue;
+}
+}
+
+
+/* 3. Desktop  1024px */
+@media (min-width: 1024px) {
+body {
+background-color: lightyellow;
+}
+}
+
+
+/* Custom desktop styles */
+h1 {
+font-size: 3rem;
+}
+
+p {
+line-height: 1.8;
+}
