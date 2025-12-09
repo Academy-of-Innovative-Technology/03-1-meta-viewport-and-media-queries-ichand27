@@ -30,12 +30,26 @@ margin: 0;
 font-family: Arial, sans-serif;
 }
 
+ul {
+    display: none;
+}
 
 /* 2. Tablet  768px */
 @media (min-width: 768px) {
 body {
 background-color: lightblue;
 }
+ul{
+ display: block;
+}
+.menu {
+ display: none;   
+}
+.sections {
+ display: flex;
+ justify-content: center;
+}
+
 }
 
 
@@ -43,6 +57,16 @@ background-color: lightblue;
 @media (min-width: 1024px) {
 body {
 background-color: lightyellow;
+}
+ul{
+ display: block;
+}
+.menu {
+ display: none;   
+}
+.sections {
+ display: flex;
+ justify-content: flex-end;
 }
 }
 
